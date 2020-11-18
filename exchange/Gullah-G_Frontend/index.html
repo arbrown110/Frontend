@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles/style.css">
+    <title>Cultural Exchange</title>
+</head>
+<body>
+    <!--Container-->
+    <div class="container">
+        <!--Form for New collection-->
+        <h1>Add to the Collection</h1>
+        <form id="create-collection-form">
+            <div class="form-group">
+              <label for="input-name"><p class="input-text">Name</p></label>
+              <input type="text" class="form-control" id="input-name" aria-describedby="nameHelp">
+              <small id="input-name" class="form-text text-muted"></small>
+              <br></br>
+            
+              <label for="input-url">Image Url</label>
+              <br></br>
+              <input type="text" class="form-control" id="input-url" aria-describedby="imageHelp">
+              <br></br>
+              <small id="imageHelp" class="form-text text-muted">Ex. Http://......</small>
+              <br></br>
+            
+              <label for="input-description">Description</label>
+              <br></br>
+              <textarea class="form-control" id="input-description" rows="3"></textarea>
+              <br></br>
+            
+              <label for="input-source-url">Source Url</label>
+              <br></br>
+              <input type="text" class="form-control" id="input-source-url" aria-describedby="sourceHelp">
+              <br></br>
+              <small id="sourceHelp" class="form-text text-muted">Where did you get this information from?</small>
+              <br></br>
+              <select id="categories" name="categories">
+                <p>Select a Category</p>
+                <option value="1">Food</option>
+                <option value="2">Media</option>
+                <option value="3">Clothing</option>
+                <option value="4">Travel</option>
+              </select>
+              <br></br>
+            <button type="submit" class="btn btn-primary">Submit</button>
+            </div>
+        </form>
+          <!--END OF CREATE  FORM-->
+          <!--beginning of Collection Container-->
+          <div id="collection-container">
+            
+          </div>
+          <!--END OF COLLECTION CONTAINER-->
+    </div>
+</body>
+</html>
