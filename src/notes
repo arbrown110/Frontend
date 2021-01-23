@@ -29,3 +29,9 @@ adventures#update
 
 --DELETE	/adventures/:id(.:format)	
 adventures#destroy
+
+
+
+we export default when importing you need no curly brackets. only can do it once in file.
+
+Router hands routing for us.

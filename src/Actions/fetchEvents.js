@@ -1,10 +1,4 @@
-export function Fetchadventures ()  {
+export const fetchEvents = (event, adventureId) =>  {
     return (dispatch) => {
-        fetch(`/adventures`)
-        .then(resp => resp.json())
-        .then(adventuresData => dispatch({
-            type: 'LOADING_ADVENTURES',
-            payload: adventuresData
-        }));
-    };
-}
+        fetch(`/adventures/:${adventureId}/events`)
+        

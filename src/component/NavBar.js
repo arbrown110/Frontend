@@ -19,7 +19,7 @@ const NavBar = () => {
                 exact
                 style={links}
                 activeStyle={{
-                    brackground: 'dark blue'
+                    background: 'dark blue'
                 }}
                 >Home
             </NavLink>
@@ -27,7 +27,7 @@ const NavBar = () => {
                 exact
                 style={links}
                 activeStyle={{
-                    brackground: 'dark blue'
+                    background: 'dark blue'
                 }}
                 >Adventures
             </NavLink>
@@ -36,7 +36,7 @@ const NavBar = () => {
                  exact
                  style={links}
                  activeStyle={{
-                     brackground: 'dark blue'
+                     background: 'dark blue'
                  }} 
             >
                 About
@@ -46,7 +46,7 @@ const NavBar = () => {
                  exact
                  style={links}
                  activeStyle={{
-                     brackground: 'dark blue'
+                     background: 'dark blue'
                  }}
             >
                 Contact
@@ -56,7 +56,7 @@ const NavBar = () => {
                  exact
                  style={links}
                  activeStyle={{
-                     brackground: 'dark blue'
+                     background: 'dark blue'
                  }}
             >
                 Link
