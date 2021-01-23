@@ -1,0 +1,31 @@
+adventure_event_path	certian Event
+
+--GET	/adventures/:adventure_id/events/:id(.:format)	
+events#show
+
+--DELETE	/adventures/:adventure_id/events/:id(.:format)	
+events#destroy
+
+adventure_events_path	All of adventures event
+
+--GET	/adventures/:adventure_id/events(.:format)	
+events#index
+
+--POST	/adventures/:adventure_id/events(.:format)	
+events#create
+
+
+
+adventure_path	 Adventures 
+
+--GET	/adventures/:id(.:format)	
+adventures#show
+
+--PATCH	/adventures/:id(.:format)	
+adventures#update
+
+--PUT	/adventures/:id(.:format)	
+adventures#update
+
+--DELETE	/adventures/:id(.:format)	
+adventures#destroy
