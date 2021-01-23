@@ -4,6 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="styles/style.css">
+    <!--script type="text/javascript" src="src/collection.js"></script-->
+    <script type="text/javascript" src="src/adapters/CollectionsAdapter.js"></script>
+    <script type="text/javascript" src="src/components/app.js"></script>
+    <script type="text/javascript" src="src/components/collections.js"></script>
+    <script type="text/javascript" src="src/index.js"></script>
+
+
     <title>Cultural Exchange</title>
 </head>
 <body>
@@ -11,7 +18,7 @@
     <div class="container">
         <!--Form for New collection-->
         <h1>Add to the Collection</h1>
-        <form id="create-collection-form">
+        <form id="create-collections-form">
             <div class="form-group">
               <label for="input-name"><p class="input-text">Name</p></label>
               <input type="text" class="form-control" id="input-name" aria-describedby="nameHelp">
@@ -49,10 +56,14 @@
         </form>
           <!--END OF CREATE  FORM-->
           <!--beginning of Collection Container-->
-          <div id="collection-container">
+          <div id="collections-container">
             
           </div>
           <!--END OF COLLECTION CONTAINER-->
+          <div id="collection-cards">
+              
+          </div>
     </div>
+
 </body>
 </html>
