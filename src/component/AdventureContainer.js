@@ -3,6 +3,6 @@ import React, { Component } from 'react'
 
 
 
-export class AdventureContainer extends Component {}
+export class AdventureContainer extends Component {render(){return}}
 
 export default AdventureContainer

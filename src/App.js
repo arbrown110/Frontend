@@ -1,6 +1,7 @@
 import { BrowserRouter as Router, Switch, Route} from 'react-router-dom'
 import Home from './component/Home'
 import AdventureContainer from './component/AdventureContainer'
+import EventContainer from './component/EventContainer'
 import About from './component/About'
 import Contact from './component/Contact'
 import Link from './component/Link'
@@ -15,6 +16,7 @@ function App() {
         <Switch>
          <Route exact path="/" component={Home}/>
          <Route exact path="/adventures" component={AdventureContainer}/>
+         <Route exact path="/adventures/:adventure_id/events" component={EventContainer}/>
          <Route exact path="about" component={About}/>
          <Route exact path="/contact" component={Contact}/>
          <Route exact path="/link" component={Link}/>
